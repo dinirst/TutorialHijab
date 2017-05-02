@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_casual"
+            android:icon="@drawable/casual"
+            android:title="Casual Look" />
+        <item
+            android:id="@+id/nav_formal"
+            android:icon="@drawable/formal"
+            android:title="Formal Look" />
+
+        <item
+            android:id="@+id/nav_saran"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="Advices" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="About Me" />
+
+    </group>
+
+</menu>
